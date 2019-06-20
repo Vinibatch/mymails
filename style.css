@@ -5,29 +5,22 @@
                         display: flex;
                         flex-direction: column;
                         align-items:center;
-
-
-
-
                     }
                     h6 {
                         font-size: 14px;
                         margin: 0px;
-
                     }
-
                     .trash {
                         width : 15px;
                     }
-
-                
                     .avatar {
                         width: 60px;
                         border-radius: 50%;
                         margin-right: 15px;
-
                     }
                     .row {
+                        align-content: center;
+                        align-items: center;
                         border-top: 1px solid #DADADA ;
                         border-right: 1px solid #DADADA;
                         border-left: 1px solid #DADADA;
@@ -36,17 +29,30 @@
                         display: flex;
                         align-items:center;
                         padding: 15px;
-
-
-
-
                     }
-
+                    .mess {
+                       
+                        display: flex;
+                        max-height: 100%;
+                        width: 70%;
+                        height:  30px;
+                    }
                     .last-row {
                         border-bottom: 1px solid #DADADA;
-                    };
-
-                    .compteur,#count {
-        
-                        font-weight: bold;
                     }
+
+                .btn-blue {
+                    display: flex;
+                    width: 7%;
+                    height:  37px;
+
+
+                color:  blue;
+                    border-color: blue;
+                    border-radius : 10%;
+                    outline:0;
+
+
+                };
+                
+               
